@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements and Tags</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .element-section {
+            margin-bottom: 30px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .example {
+            background-color: #f5f5f5;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Headings -->
+    <div class="element-section">
+        <h1>Heading</h1>
+        <h2>Heading</h2>
+        <h3>Heading</h3>
+        <h4>Heading</h4>
+        <h5>Heading</h5>
+        <h6>Heading</h6>
+    </div>
+
+    <!-- Text Elements -->
+    <div class="element-section">
+        <h2>Text Elements</h2>
+        <p>This is a paragraph element. It's used for blocks of text.</p>
+        <p>Text can be <strong>bold</strong>, <em>italic</em>, or <u>underlined</u>.</p>
+        <p>This text contains a <br>line break.</p>
+        <hr>
+        <p>Above this is a horizontal rule (hr).</p>
+    </div>
+
+    <!-- Lists -->
+    <div class="element-section">
+        <h2>Lists</h2>
+        <h3>Unordered List:</h3>
+        <ul>
+            <li>Item 1</li>
+            <li>Item 2</li>
+            <li>Item 3</li>
+        </ul>
+
+        <h3>Ordered List:</h3>
+        <ol>
+            <li>First item</li>
+            <li>Second item</li>
+            <li>Third item</li>
+        </ol>
+    </div>
+
+    <!-- Links and Images -->
+    <div class="element-section">
+        <h2>Links and Images</h2>
+        <p>This is a <a href="https://www.example.com" target="_blank">link to example.com</a></p>
+        <p>Image example:</p>
+        <img src="https://fastly.picsum.photos/id/237/536/354.jpg?hmac=i0yVXW1ORpyCZpQ-CknuyV-jbtU7_x9EBQVhvT5aRr0" alt="Placeholder image" width="350" height="240">
+    </div>
+
+    <!-- Tables -->
+    <div class="element-section">
+        <h2>Table Example</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Header 1</th>
+                    <th>Header 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Row 1, Cell 1</td>
+                    <td>Row 1, Cell 2</td>
+                </tr>
+                <tr>
+                    <td>Row 2, Cell 1</td>
+                    <td>Row 2, Cell 2</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Forms -->
+    <div class="element-section">
+        <h2>Form Elements</h2>
+        <form>
+            <div class="example">
+                <label for="text-input">Text Input:</label>
+                <input type="text" id="text-input" name="text-input">
+            </div>
+
+            <div class="example">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+
+            <div class="example">
+                <label for="textarea">Textarea:</label>
+                <textarea id="textarea" name="textarea" rows="4"></textarea>
+            </div>
+
+            <div class="example">
+                <label>Radio Buttons:</label><br>
+                <input type="radio" id="radio1" name="radio" value="1">
+                <label for="radio1">Option 1</label><br>
+                <input type="radio" id="radio2" name="radio" value="2">
+                <label for="radio2">Option 2</label>
+            </div>
+
+            <div class="example">
+                <label>Checkboxes:</label><br>
+                <input type="checkbox" id="check1" name="check1">
+                <label for="check1">Check 1</label><br>
+                <input type="checkbox" id="check2" name="check2">
+                <label for="check2">Check 2</label>
+            </div>
+
+            <div class="example">
+                <label for="select">Select Dropdown:</label>
+                <select id="select" name="select">
+                    <option value="">Choose an option</option>
+                    <option value="1">Option 1</option>
+                    <option value="2">Option 2</option>
+                </select>
+            </div>
+
+            <div class="example">
+                <button type="submit">Submit Button</button>
+                <button type="reset">Reset Button</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- Semantic Elements -->
+    <div class="element-section">
+        <h2>Semantic Elements</h2>
+        <header>
+            <p>This is a header element</p>
+        </header>
+        <nav>
+            <p>This represents navigation</p>
+        </nav>
+        <main>
+            <p>Main content area</p>
+        </main>
+        <article>
+            <p>Article content</p>
+        </article>
+        <aside>
+            <p>Aside content</p>
+        </aside>
+        <footer>
+            <p>Footer content</p>
+        </footer>
+    </div>
+</body>
+</html>
